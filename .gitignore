@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/backend/env/
 
 # Spyder project settings
 .spyderproject
@@ -192,3 +193,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# === Frontend (Vue.js) ignores ===
+/frontend/Agentic_RAG/node_modules
+/frontend/Agentic_RAG/dist
+/frontend/Agentic_RAG/dist-ssr
+/frontend/Agentic_RAG/coverage
+/frontend/Agentic_RAG/*.local
+/frontend/Agentic_RAG/cypress/videos/
+/frontend/Agentic_RAG/cypress/screenshots/
+/frontend/Agentic_RAG/*.tsbuildinfo
+/frontend/Agentic_RAG/.DS_Store
+/frontend/Agentic_RAG/logs
+/frontend/Agentic_RAG/*.log
+/frontend/Agentic_RAG/npm-debug.log*
+/frontend/Agentic_RAG/yarn-debug.log*
+/frontend/Agentic_RAG/yarn-error.log*
+/frontend/Agentic_RAG/pnpm-debug.log*
+/frontend/Agentic_RAG/lerna-debug.log*
+/frontend/Agentic_RAG/.vscode/*
+!/frontend/Agentic_RAG/.vscode/extensions.json
+/frontend/Agentic_RAG/.idea
+/frontend/Agentic_RAG/*.suo
+/frontend/Agentic_RAG/*.ntvs*
+/frontend/Agentic_RAG/*.njsproj
+/frontend/Agentic_RAG/*.sln
+/frontend/Agentic_RAG/*.sw?
