@@ -1,4 +1,13 @@
 fastapi
+fastapi-cli
+email_validator
+websockets
+pydantic
+SQLAlchemy
+passlib
+bcrypt
+uvicorn
 langchain
 langgraph
 python-dotenv
+annotated-types
