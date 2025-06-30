@@ -11,3 +11,6 @@ langchain
 langgraph
 python-dotenv
 annotated-types
+psycopg2
+python-jose[cryptography]
+python-multipart
