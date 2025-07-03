@@ -1,0 +1,34 @@
+Towards Real-Time Dynamic Facial Expression 
+Recognition: Balancing Computational 
+Efficiency and Accuracy
+ Abstract: 
+Dynamic Facial Expression Recognition (DFER) plays a critical role in human-computer 
+interaction, social robotics, and affective computing. DFER captures temporal patterns of 
+emotions, enabling systems to understand subtle changes in human affect over time. 
+However, achieving both high accuracy and efficient real-time inference remains 
+challenging, particularly for deployment on resource-constrained devices. 
+Recent advances in deep learning (CNN-RNN, Vision Transformers (ViT), and multi-modal 
+learning) show promising results. Yet, many state-of-the-art DFER methods are 
+computationally heavy and not optimized for real-time applications. 
+This topic aims to investigate lightweight, efficient DFER models that maintain high 
+recognition accuracy while reducing computational cost, enabling practical use in real-time 
+scenarios. 
+Motivation: 
+While the DFER field has advanced rapidly, many existing deep learning methods remain too 
+heavy for real-time. so as I propose to balance between the Efficiency and Accuracy then 
+may go with some approaches that we can able to investigate with it such as : 
+1- Leverage Parameter-Efficient Fine-Tuning (PEFT) techniques such as LoRA to fine-tune 
+large Vision Transformer (ViT) models effectively with minimal overhead. 
+2- Explore quantization techniques (FP16, INT8) to reduce model size and accelerate 
+inference. 
+Through this work, we contribute toward real-time capable, efficient DFER systems 
+applicable in different domains with taking care about two main terms (Efficiency , Accuracy) 
+To be able to achieve the goal the following benchmark dataset will be used for model 
+development and evaluation: 
+FERv39K: It is a static image dataset — it provides frames annotated with 7 expressions : - - 
+The source is video segments 
+The dataset as provided → already contains frames extracted from videos and 
+labeled 
+So this research will provide valuable insights into balancing computational efficiency and 
+accuracy for Dynamic Facial Expression Recognition. The outcome is expected to contribute 
+practical solutions that advance real-time DFER applicability in modern intelligent systems.

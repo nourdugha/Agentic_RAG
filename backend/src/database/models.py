@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional,List
+from pgvector.sqlalchemy import Vector
 
 class User(BaseModel):
     username : str
@@ -21,3 +22,4 @@ class Token(BaseModel):
 # this data is going to be encoded by our token
 class TokenData(BaseModel):
     username: Optional[str] = None
+
